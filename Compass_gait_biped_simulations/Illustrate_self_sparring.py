@@ -38,11 +38,11 @@ state_dim = 1       # Dimensionality of input space
 # Folder into which information about each model posterior is saved. (The
 # animation script saves these posteriors, so that they don't have to be
 # recalculated multiple times.)
-save_info_folder = 'CG_biped_sim_posteriors/'
+save_info_folder = 'Plotting_data/CG_biped_sim_posteriors/'
 
 # Load data of which actions were selected in a particular CG biped simulation 
 # run:
-data_pt_idxs = io.loadmat('Compass_biped/Opt_2_samples_' + str(num_pts_sample) \
+data_pt_idxs = io.loadmat('Compass_biped_results/Opt_2_samples_' + str(num_pts_sample) \
                           + '_pts_run_0.mat')['data_pt_idxs']
 
 # We will plot samples from the posterior for models trained using each of the
@@ -83,7 +83,7 @@ for i, pref_num in enumerate(pref_nums):
     
     # Check whether we have already drawn some posterior samples for this 
     # number of preferences.
-    post_sample_filename = 'Samples_from_reward_model_' + str(pref_num) + \
+    post_sample_filename = 'Plotting_data/Samples_from_reward_model_' + str(pref_num) + \
                            '_pref.mat'
                            
     if not os.path.isfile(post_sample_filename):

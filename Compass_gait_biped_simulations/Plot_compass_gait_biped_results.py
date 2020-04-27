@@ -53,7 +53,7 @@ if not os.path.isdir(save_plots_folder):
 pref_nums = [0, 5, 20, 75]
 
 # Load data from the first run:
-save_folder = 'Compass_biped/'
+save_folder = 'Compass_biped_results/'
 run_num = 0
 data = io.loadmat(save_folder + 'Opt_' + str(num_samples) + '_samples_' \
                      + str(num_pts_sample) + '_pts_run_' + str(run_num) + '.mat')
@@ -128,11 +128,11 @@ for i, pref_num in enumerate(pref_nums):
     
     # Sample new points at which to query for a preference:
     _, reward_models = advance(posterior_model, num_samples_plot)
-    #    io.savemat('Reward_samples_' + str(pref_num) + '_preferences.mat',
+    #    io.savemat('Plotting_data/Reward_samples_' + str(pref_num) + '_preferences.mat',
     #      {'reward_samples': reward_models, 'sampled_points': sampled_points})
     """
     
-    reward_models = io.loadmat('Reward_samples_' + str(pref_num) + \
+    reward_models = io.loadmat('Plotting_data/Reward_samples_' + str(pref_num) + \
                                '_preferences.mat')['reward_samples']
 
     # Unpack model posterior:

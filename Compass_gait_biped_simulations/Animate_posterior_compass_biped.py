@@ -33,13 +33,13 @@ if not os.path.isdir(save_plots_folder):
     os.makedirs(save_plots_folder)
 
 # Folder for saving (or loading) posterior information:
-save_info_folder = 'CG_biped_sim_posteriors/'
+save_info_folder = 'Plotting_data/CG_biped_sim_posteriors/'
 
 if not os.path.isdir(save_info_folder):
     os.makedirs(save_info_folder)
 
 # Load data to use for plotting evolution of the posterior:   
-CG_sim_folder = 'Compass_biped/'
+CG_sim_folder = 'Compass_biped_results/'
 
 run_num = 0
 num_samples = 2      # CoSpar parameter (n)
