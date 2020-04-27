@@ -1,5 +1,5 @@
-# CoSpar: Efficiently Learning from Human Feedback
-This repository contains code for reproducing the simulation results and plots in Section 4 of the paper:
+# CoSpar: Efficient Online Learning from Human Feedback
+This repository contains code for reproducing the simulation results and plots in Section 4 of the following paper:
 
 **Preference-Based Learning for Exoskeleton Gait Optimization**<br/>
 Maegan Tucker\*, Ellen Novoseller\*, Claudia Kann, Yanan Sui, Yisong Yue, Joel W. Burdick, and Aaron D. Ames<br/>
@@ -16,3 +16,4 @@ The code is divided into two subfolders, corresponding to the compass-gait biped
 5)	Generate_and_plot_2D_objective_functions.py contains the code for generating the 2D synthetic objective functions used in the 2nd set of simulations.
 6)	Illustrate_self_sparring.py makes some plots of posterior samples (for the compass-gait biped) that were used in the [video](https://www.youtube.com/watch?v=-27sHXsvONE) accompanying the paper.
 
+The folders "Compass_gait_biped_simulations/Compass_biped_results/" and "2D function simulations/Sim_results/" contain the simulation results appearing Figures 2-4 in the paper.

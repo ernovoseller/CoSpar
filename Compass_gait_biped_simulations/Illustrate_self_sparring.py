@@ -25,7 +25,7 @@ from Preference_GP_learning import advance
 plt.close('all')
 
 # Folder in which to save plots:
-save_plots_folder = 'Plots/'
+save_plots_folder = 'Plots/Illustrate_self_sparring/'
 
 if not os.path.isdir(save_plots_folder):
     os.mkdir(save_plots_folder)

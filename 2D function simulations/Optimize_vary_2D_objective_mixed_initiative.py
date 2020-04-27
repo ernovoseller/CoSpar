@@ -37,7 +37,7 @@ num_iterations = int(np.ceil(num_trials / num_samples))
 
 # Folder in which to save the results. Added _take2 to the folder name, so that 
 # the functions used in the ICRA paper don't get accidentally overwritten.
-save_folder = 'Multi_dueling_mixed_initiative_take2/'
+save_folder = 'Sim_results/Multi_dueling_mixed_initiative_take2/'
 
 if not os.path.isdir(save_folder):
     os.mkdir(save_folder) 
