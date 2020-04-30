@@ -1,4 +1,4 @@
-# CoSpar: Efficient Online Learning from Human Feedback
+# CoSpar: Online Learning from Human Preference and Coactive Feedback
 This repository contains code for reproducing the simulation results and plots in Section 4 of the following paper:
 
 **Preference-Based Learning for Exoskeleton Gait Optimization**<br/>
