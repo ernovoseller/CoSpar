@@ -8,7 +8,7 @@ IEEE Conference on Robotics and Automation (ICRA), 2020<br/>
 (*equal contribution)<br/>
 [PDF](https://arxiv.org/abs/1909.12316) &nbsp;&nbsp;&nbsp; [Video](https://www.youtube.com/watch?v=-27sHXsvONE)
 
-The CoSpar algorithm was experimentally deployed on a lower-body robotic exoskeleton to identify personalized, user-preferred exoskeleton walking gaits.  CoSpar is a human-in-the-loop learning framework that adapts to mixed-initiative qualitative feedback (i.e., pairwise preferences and coactive feedback) to optimize an unknown objective function, for instance, an exoskeleton user's comfort.
+The CoSpar algorithm was experimentally deployed on a lower-body robotic exoskeleton to identify personalized, user-preferred exoskeleton walking gaits.  CoSpar is a human-in-the-loop learning framework that adapts to mixed-initiative qualitative feedback from a human (i.e., pairwise preferences and coactive feedback) to optimize an unknown objective function, for instance, an exoskeleton user's comfort.
 
 
 ## Implementation Details
