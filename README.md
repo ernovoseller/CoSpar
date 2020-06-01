@@ -1,11 +1,17 @@
 # CoSpar: Online Learning from Human Preference and Coactive Feedback
-This repository contains code for reproducing the simulation results and plots in Section 4 of the following paper:
+
+This repository contains code for reproducing the CoSpar algorithm simulation results and plots in the paper:
 
 **Preference-Based Learning for Exoskeleton Gait Optimization**<br/>
 Maegan Tucker\*, Ellen Novoseller\*, Claudia Kann, Yanan Sui, Yisong Yue, Joel W. Burdick, and Aaron D. Ames<br/>
 IEEE Conference on Robotics and Automation (ICRA), 2020<br/>
 (*equal contribution)<br/>
 [PDF](https://arxiv.org/abs/1909.12316) &nbsp;&nbsp;&nbsp; [Video](https://www.youtube.com/watch?v=-27sHXsvONE)
+
+The CoSpar algorithm was experimentally deployed on a lower-body robotic exoskeleton to identify personalized, user-preferred exoskeleton walking gaits.  CoSpar is a human-in-the-loop learning framework that adapts to mixed-initiative qualitative feedback (i.e., pairwise preferences and coactive feedback) to optimize an unknown objective function, for instance, an exoskeleton user's comfort.
+
+
+## Implementation Details
 
 The code is divided into two subfolders, corresponding to the compass-gait biped simulations and the 2D synthetic function simulations, respectively. The Python files included are as follows:
 
